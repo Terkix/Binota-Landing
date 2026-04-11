@@ -1,6 +1,6 @@
-# Moneta Landing
+# Binota Landing
 
-A landing page for the Moneta Protocol - a stablecoin experience built on Monad. Features the UNO stablecoin and NETA governance token.
+A landing page for the Binota Protocol - a stablecoin experience built on Monad. Features the STABLE stablecoin and BNT governance token.
 
 ## Tech Stack
 
@@ -35,7 +35,7 @@ src/
 ├── sections/              # Page sections (each is a component)
 │   ├── Splash.tsx         # Hero section with shader effect
 │   ├── Stats.tsx          # Metrics display (TVL, etc.)
-│   ├── Uno.tsx            # UNO token showcase
+│   ├── Uno.tsx            # STABLE token showcase
 │   ├── Features.tsx       # Features accordion
 │   ├── Products.tsx       # EARN/COLLATERALS columns
 │   ├── Governance.tsx     # Protocol features grid
@@ -46,6 +46,7 @@ src/
 │   ├── Stack.tsx          # Flex layout utility
 │   ├── Accordion.tsx      # Features accordion (Base UI)
 │   ├── BrandLogo.tsx      # Logo component
+│   ├── BinotaLogo.tsx     # Binota SVG logo
 │   └── Shader*.tsx        # WebGL shader effects (5 variants)
 └── styles/modules/        # Tailwind class constants
     ├── typography.ts      # Text styles
@@ -78,8 +79,8 @@ public/assets/
 ## Color Tokens
 
 Defined in `src/app/globals.css` as CSS variables:
-- Primary: `#ede61d` (yellow)
-- Secondary: `#8a00c4` (purple)
+- Primary: `#F0B90B` (Binance yellow)
+- Secondary: `#0ECB81` (green)
 - Background: `#000000` (black)
 
 Use via Tailwind: `text-primary-200`, `bg-secondary-600`, etc.
