@@ -34,15 +34,15 @@
   --color-neutral-800: #374151;
   --color-white: #ffffff;
 
-  --color-primary-200: #f0ea42;
-  --color-primary-400: #ede61d;
-  --color-primary-600: #7b5f00;
-  --color-primary-800: #2c2000;
+  --color-primary-200: #FDF0C4;
+  --color-primary-400: #F0B90B;
+  --color-primary-600: #B38A08;
+  --color-primary-800: #3D2F03;
 
-  --color-secondary-200: #f6b1cf;
-  --color-secondary-400: #8a00c4;
-  --color-secondary-600: #5c0082;
-  --color-secondary-800: #2e0040;
+  --color-secondary-200: #B3E5D1;
+  --color-secondary-400: #0ECB81;
+  --color-secondary-600: #0A9F66;
+  --color-secondary-800: #032B1D;
 
 
   --color-background: var(--background);
@@ -81,31 +81,31 @@ body {
 
 .shadow-base {
   box-shadow: 
-    0 24px 10px rgba(138, 0, 196, 0.01),
-    0 14px 8px rgba(138, 0, 196, 0.05),
-    0 6px 6px rgba(138, 0, 196, 0.08),
-    0 2px 3px rgba(138, 0, 196, 0.1);
+    0 24px 10px rgba(14, 203, 129, 0.01),
+    0 14px 8px rgba(14, 203, 129, 0.05),
+    0 6px 6px rgba(14, 203, 129, 0.08),
+    0 2px 3px rgba(14, 203, 129, 0.1);
 }
 .shadow-hover {
   box-shadow: 
-    0 24px 10px rgba(138, 0, 196, 0.00),
-    0 14px 8px rgba(138, 0, 196, 0.00),
-    0 6px 6px rgba(138, 0, 196, 0.00),
-    0 2px 3px rgba(138, 0, 196, 0.0);
+    0 24px 10px rgba(14, 203, 129, 0.00),
+    0 14px 8px rgba(14, 203, 129, 0.00),
+    0 6px 6px rgba(14, 203, 129, 0.00),
+    0 2px 3px rgba(14, 203, 129, 0.0);
     &:hover {
       box-shadow: 
-        0 21px 21px rgba(138, 0, 196, 0.13),
-        0 13px 8px rgba(138, 0, 196, 0.13),
-        0 5px 5px rgba(138, 0, 196, 0.34),
-        0 2px 3px rgba(138, 0, 196, 0.21);
+        0 21px 21px rgba(14, 203, 129, 0.13),
+        0 13px 8px rgba(14, 203, 129, 0.13),
+        0 5px 5px rgba(14, 203, 129, 0.34),
+        0 2px 3px rgba(14, 203, 129, 0.21);
     }
 }
 .shadow-strong {
   box-shadow: 
-    0 21px 21px rgba(138, 0, 196, 0.13),
-    0 13px 8px rgba(138, 0, 196, 0.13),
-    0 5px 5px rgba(138, 0, 196, 0.34),
-    0 2px 3px rgba(138, 0, 196, 0.21);
+    0 21px 21px rgba(14, 203, 129, 0.13),
+    0 13px 8px rgba(14, 203, 129, 0.13),
+    0 5px 5px rgba(14, 203, 129, 0.34),
+    0 2px 3px rgba(14, 203, 129, 0.21);
 }
 
 /* html, body, *, button, a, input {
