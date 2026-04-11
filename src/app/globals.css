@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #171717;
+}
+
+@theme inline{
+
+  --color-error-200: #fda4af;
+  --color-error-400: #f43f5e;
+  --color-error-600: #be123c;
+  --color-error-800: #881337;
+
+  --color-info-200: #7dd3fc;
+  --color-info-400: #38bdf8;
+  --color-info-600: #0ea5e9;
+  --color-info-800: #0284c7;
+
+  --color-positive-200: #bbf7d0;
+  --color-positive-400: #86efac;
+  --color-positive-600: #4ade80;
+  --color-positive-800: #22c55e;
+
+  --color-warning-200: #fde68a;
+  --color-warning-400: #fbbf24;
+  --color-warning-600: #f59e0b;
+  --color-warning-800: #d97706;
+
+  --color-black: #000000;
+  --color-neutral-200: #e5e7eb;
+  --color-neutral-400: #9ca3af;
+  --color-neutral-600: #6b7280;
+  --color-neutral-800: #374151;
+  --color-white: #ffffff;
+
+  --color-primary-200: #f0ea42;
+  --color-primary-400: #ede61d;
+  --color-primary-600: #7b5f00;
+  --color-primary-800: #2c2000;
+
+  --color-secondary-200: #f6b1cf;
+  --color-secondary-400: #8a00c4;
+  --color-secondary-600: #5c0082;
+  --color-secondary-800: #2e0040;
+
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --view-width: 1280px;
+  --view-height: 900px;
+
+ 
+  
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #000000;
+    --foreground: #000000;
+  }
+}
+
+@font-face {
+  font-family: 'Kaypro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/assets/font/Web437_Kaypro2K_G.woff") format('woff');
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Kaypro', monospace;
+}
+
+.shadow-base {
+  box-shadow: 
+    0 24px 10px rgba(138, 0, 196, 0.01),
+    0 14px 8px rgba(138, 0, 196, 0.05),
+    0 6px 6px rgba(138, 0, 196, 0.08),
+    0 2px 3px rgba(138, 0, 196, 0.1);
+}
+.shadow-hover {
+  box-shadow: 
+    0 24px 10px rgba(138, 0, 196, 0.00),
+    0 14px 8px rgba(138, 0, 196, 0.00),
+    0 6px 6px rgba(138, 0, 196, 0.00),
+    0 2px 3px rgba(138, 0, 196, 0.0);
+    &:hover {
+      box-shadow: 
+        0 21px 21px rgba(138, 0, 196, 0.13),
+        0 13px 8px rgba(138, 0, 196, 0.13),
+        0 5px 5px rgba(138, 0, 196, 0.34),
+        0 2px 3px rgba(138, 0, 196, 0.21);
+    }
+}
+.shadow-strong {
+  box-shadow: 
+    0 21px 21px rgba(138, 0, 196, 0.13),
+    0 13px 8px rgba(138, 0, 196, 0.13),
+    0 5px 5px rgba(138, 0, 196, 0.34),
+    0 2px 3px rgba(138, 0, 196, 0.21);
+}
+
+/* html, body, *, button, a, input {
+  cursor: url('/assets/cursors/Arrow.svg'), auto;
+}
+  .disabled, a:disabled, input:disabled {
+    cursor: url('/assets/cursors/Forbidden.svg'), auto;
+  }
+
+  button.progress {
+    cursor: url('/assets/cursors/Hourglass.svg'), auto;
+  }
+
+  button:hover, a:hover, input:hover, .hover:hover {
+    cursor: url('/assets/img/Pointer.svg'), auto;
+  }
+
+  button:focus, a:focus, input:focus, .focus:focus {
+    cursor: url('/assets/cursors/Hourglass.svg'), auto;
+  } */
+
+
+/* // Purple (based on #8a00c4)
+
+"purple:50": "#f5f0ff",
+"purple:100": "#ede0ff",
+"purple:200": "#dbc2ff",
+"purple:300": "#c299ff",
+"purple:400": "#a366ff",
+"purple:500": "#8a00c4",
+"purple:600": "#7300a3",
+"purple:700": "#5c0082",
+"purple:800": "#450061",
+"purple:900": "#2e0040",
+"purple:950": "#1a0024", */
