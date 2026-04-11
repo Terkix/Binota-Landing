@@ -20,11 +20,11 @@ export default function Splash() {
           </h1>
           {/* <h5 className={TypeStyles.h5}>Now live on testnet!</h5> */}
           <p className={TypeStyles.lead}>
-            Monata Stable (UNO) is backed by a diverse range of collaterals,
+            Binota Stable (STABLE) is backed by a diverse range of collaterals,
             such as MON, shMON, sMON, and gMON
           </p>
           <div className="flex justify-between items-center pt-12">
-            <MonButton href="https://app.monata.xyz" text="Launch App" />
+            <MonButton href="#" text="Launch App" />
           </div>
         </div>
         {/* <ShaderSplash className="absolute top-0 left-0 min-h-[900px]" /> */}

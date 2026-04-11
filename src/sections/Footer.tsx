@@ -66,7 +66,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-2 leading-6 font-sans text-lg">
                     <a
-                      href="https://docs.monata.xyz"
+                      href="#"
                       className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600"
                     >
                       Documentation
@@ -109,7 +109,7 @@ export default function Footer() {
                 <ul>
                   <li className="mb-2 leading-6 font-sans text-lg">
                     <a
-                      href="https://github.com/MonetaLQTY"
+                      href="#"
                       className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600"
                     >
                       GitHub
@@ -134,7 +134,7 @@ export default function Footer() {
                   cursor: "pointer",
                 }}
               >
-                Monata
+                Binota
               </a>
               <nav
                 className="col-span-3 md:col-span-4 lg:col-span-6"

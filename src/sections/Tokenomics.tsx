@@ -11,7 +11,7 @@ export default async function Tokenomics() {
       <div className="container px-8 py-24 md:p-24 mx-0 sm:mx-12 lg:mx-24 max-w-[1440px]">
         <h2 className={TypeStyles.h2}>Token Distribution</h2>
         <h4 className={TypeStyles.h4}>
-          Total Supply: {formatCount(data.totalSupply)} MNA
+          Total Supply: {formatCount(data.totalSupply)} BNT
         </h4>
 
         {/* Allocation Cards Grid */}

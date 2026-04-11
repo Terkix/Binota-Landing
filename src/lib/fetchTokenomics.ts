@@ -2,7 +2,7 @@ import { createPublicClient, http, formatUnits } from "viem";
 import { ERC20ABI } from "@/config/abis";
 import {
   RPC_URL,
-  MONATA_TOKEN_ADDRESS,
+  BINOTA_TOKEN_ADDRESS,
   STATS_REVALIDATE_INTERVAL,
 } from "@/config/env";
 import { ALLOCATION_CONFIG, TOTAL_SUPPLY_OVERRIDE } from "@/config/tokenomics";
@@ -25,7 +25,7 @@ const client = createPublicClient({
 });
 
 /**
- * Fetches MONATA token total supply from on-chain
+ * Fetches BINOTA token total supply from on-chain
  */
 async function fetchTotalSupply(): Promise<number> {
   // Use override if configured
@@ -35,14 +35,14 @@ async function fetchTotalSupply(): Promise<number> {
 
   try {
     const totalSupply = await client.readContract({
-      address: MONATA_TOKEN_ADDRESS,
+      address: BINOTA_TOKEN_ADDRESS,
       abi: ERC20ABI,
       functionName: "totalSupply",
     });
 
     return Number(formatUnits(totalSupply, 18));
   } catch (error) {
-    console.error("Error fetching MONATA total supply:", error);
+    console.error("Error fetching BINOTA total supply:", error);
     return 0;
   }
 }

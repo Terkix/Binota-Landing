@@ -24,7 +24,7 @@ export default function Uno() {
 
             <div className="col-span-6 md:col-span-3">
               <div className={`${cardStyles.cardGrid} flex justify-center items-center text-center p-12`}>
-                <Image width={64} height={64} src="/assets/img/uno-no-space.svg" alt="Monata Logo" />
+                <Image width={64} height={64} src="/assets/img/uno-no-space.svg" alt="Binota Logo" />
               </div>
             </div>
             <div className="hidden md:block md:col-span-3">

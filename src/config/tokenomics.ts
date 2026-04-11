@@ -1,4 +1,4 @@
-// Tokenomics configuration - allocation percentages for MONATA (MNA) token
+// Tokenomics configuration - allocation percentages for BINOTA (BNT) token
 // Update these values based on actual tokenomics
 
 import type { AllocationCategory } from "@/types/stats";
@@ -7,13 +7,13 @@ export const ALLOCATION_CONFIG: AllocationCategory[] = [
   {
     name: "Emissions & Incentives",
     percentage: 40,
-    color: "#ede61d", // Primary yellow
+    color: "#F0B90B", // Primary yellow
     description: "Protocol participation rewards, airdrop, staking, LP incentives",
   },
   {
     name: "Foundation / Treasury",
     percentage: 25,
-    color: "#8a00c4", // Secondary purple
+    color: "#0ECB81", // Secondary green
     description: "Protocol development, grants, future initiatives",
   },
   {

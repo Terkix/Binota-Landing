@@ -30,5 +30,5 @@ export const ACTIVE_POOL_CONTRACTS: Record<Branch, `0x${string}`> = {
 // ISR revalidation interval in seconds
 export const STATS_REVALIDATE_INTERVAL = 60;
 
-// MONATA (MNA) token contract address
-export const MONATA_TOKEN_ADDRESS: `0x${string}` = "0xd9bb3A71D8906610E71d72c3eebBc040f1e02eb2";
+// BINOTA (BNT) token contract address
+export const BINOTA_TOKEN_ADDRESS: `0x${string}` = "0xd9bb3A71D8906610E71d72c3eebBc040f1e02eb2";

@@ -24,17 +24,17 @@ export default function Products() {
                   width={96}
                   height={96}
                   src="/assets/img/Hand.svg"
-                  alt="Monata Hand"
+                  alt="Binota Hand"
                   className="w-24 h-24"
                   style={{ marginLeft: "-24px" }}
                 />
               </div>
               <h4 className={TypeStyles.h4}>EARN</h4>
               <p className={TypeStyles.lead}>
-                Depositing UNO into the Stability Pool earns fees from borrowers
+                Depositing STABLE into the Stability Pool earns fees from borrowers
               </p>
               <div style={{ marginTop: "24px" }}>
-                <MonButton href="https://app.monata.xyz/earn" text="Earn MNA" />
+                <MonButton href="#" text="Earn BNT" />
               </div>
             </div>
           </div>
@@ -45,18 +45,18 @@ export default function Products() {
                   width={96}
                   height={96}
                   src="/assets/img/Pinky.svg"
-                  alt="Monata Pinky"
+                  alt="Binota Pinky"
                   className="w-24 h-24"
                   style={{ marginLeft: "-24px" }}
                 />
               </div>
               <h4 className={TypeStyles.h4}>COLLATERALS</h4>
               <p className={TypeStyles.lead + " text-left"}>
-                UNO is backed by Monad-native assets including MON, shMON, sMON,
+                STABLE is backed by Monad-native assets including MON, shMON, sMON,
                 and gMON
               </p>
               <div style={{ marginTop: "24px" }}>
-                <MonButton href="https://app.monata.xyz/borrow" text="Borrow UNO" />
+                <MonButton href="#" text="Borrow STABLE" />
               </div>
             </div>
             <ShaderBorrow className="min-h-[500px] max-h-[500px] w-full flex-col lg:pb-0 lg:w-[50%] lg:row-span-6 lg:flex-row" />

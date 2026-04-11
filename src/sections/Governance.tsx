@@ -6,7 +6,7 @@ export default function Governance() {
   return (
     <section className="flex text-white justify-center select-none pb-24">
       <div className="container px-8 py-24 md:p-24 mx-0 sm:mx-12 lg:mx-24 max-w-[1440px]">
-        <p className={TypeStyles.body}>MNA Governance</p>
+        <p className={TypeStyles.body}>BNT Governance</p>
         <h2 className={TypeStyles.h2}>
           Protocol-Incentivised Liquidity Pools
           <br />
@@ -19,14 +19,14 @@ export default function Governance() {
           Aligned Incentives for Sustainable Liquidity
         </p>
         <div className="mt-12 mb-24">
-          <MonButton href="https://docs.monata.xyz" text="Read Docs" />
+          <MonButton href="#" text="Read Docs" />
         </div>
         <div className="items-stretch grid grid-cols-4 xl:grid-cols-8">
           <div className="col-span-4 lg:col-span-4 xl:col-span-4">
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>GOVERNANCE</h6>
               <p className={TypeStyles.body}>
-                MNA holders direct emissions to LPs through a gauge system.
+                BNT holders direct emissions to LPs through a gauge system.
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ export default function Governance() {
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>REDEMPTIONS</h6>
               <p className={TypeStyles.body}>
-                UNO for $1 worth of collateral at any time, with unrestricted
+                STABLE for $1 worth of collateral at any time, with unrestricted
                 participation.
               </p>
             </div>
@@ -44,7 +44,7 @@ export default function Governance() {
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>STABILITY</h6>
               <p className={TypeStyles.body}>
-                Earn protocol fees and liquidation rewards by depositing UNO
+                Earn protocol fees and liquidation rewards by depositing STABLE
                 into the Stability Pool.
               </p>
             </div>

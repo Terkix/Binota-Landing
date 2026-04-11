@@ -13,17 +13,17 @@ export default function Distribution() {
             width={96}
             height={96}
             src="/assets/img/Hand.svg"
-            alt="Monata Sample"
+            alt="Binota Sample"
             className="w-24 h-24 mb-12"
           />
           <h2 className={TypeStyles.h2}>Distribution</h2>
           <h6 className={TypeStyles.h6}>COMING SOON</h6>
           <p className={TypeStyles.body}>
-            Stake MNA to earn protocol revenue from Monata and gain governance
+            Stake BNT to earn protocol revenue from Binota and gain governance
             power over liquidity incentives.
           </p>
           <div style={{ marginTop: "24px" }}>
-            <MonButton href="https://app.monata.xyz" text="Launch App" />
+            <MonButton href="#" text="Launch App" />
           </div>
         </div>
       </div>

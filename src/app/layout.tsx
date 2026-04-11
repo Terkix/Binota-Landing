@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Moneta Protocol",
-  description: "A stablecoin experience built on Monad. Features the UNO stablecoin and NETA governance token.",
+  title: "Binota Protocol",
+  description: "A stablecoin experience built on Monad. Features the STABLE stablecoin and BNT governance token.",
   manifest: "/site.webmanifest",
   icons: "/favicon.svg",
 };
