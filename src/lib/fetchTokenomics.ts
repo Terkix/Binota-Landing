@@ -1,18 +1,14 @@
-import { createPublicClient, http, formatUnits } from "viem";
-import { ERC20ABI } from "@/config/abis";
-import {
-  RPC_URL,
-  BINOTA_TOKEN_ADDRESS,
-  STATS_REVALIDATE_INTERVAL,
-} from "@/config/env";
-import { ALLOCATION_CONFIG, TOTAL_SUPPLY_OVERRIDE } from "@/config/tokenomics";
-import type { TokenomicsData } from "@/types/stats";
+import { createPublicClient, http, formatUnits } from 'viem';
+import { ERC20ABI } from '@/config/abis';
+import { RPC_URL, BINOTA_TOKEN_ADDRESS, STATS_REVALIDATE_INTERVAL } from '@/config/env';
+import { ALLOCATION_CONFIG, TOTAL_SUPPLY_OVERRIDE } from '@/config/tokenomics';
+import type { TokenomicsData } from '@/types/stats';
 
 // Monad chain definition
 const monad = {
   id: 143,
-  name: "Monad",
-  nativeCurrency: { name: "MON", symbol: "MON", decimals: 18 },
+  name: 'Monad',
+  nativeCurrency: { name: 'MON', symbol: 'MON', decimals: 18 },
   rpcUrls: {
     default: { http: [RPC_URL] },
   },
@@ -37,12 +33,12 @@ async function fetchTotalSupply(): Promise<number> {
     const totalSupply = await client.readContract({
       address: BINOTA_TOKEN_ADDRESS,
       abi: ERC20ABI,
-      functionName: "totalSupply",
+      functionName: 'totalSupply',
     });
 
     return Number(formatUnits(totalSupply, 18));
   } catch (error) {
-    console.error("Error fetching BINOTA total supply:", error);
+    console.error('Error fetching BINOTA total supply:', error);
     return 0;
   }
 }

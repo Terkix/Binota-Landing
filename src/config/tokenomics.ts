@@ -1,32 +1,32 @@
 // Tokenomics configuration - allocation percentages for BINOTA (BNT) token
 // Update these values based on actual tokenomics
 
-import type { AllocationCategory } from "@/types/stats";
+import type { AllocationCategory } from '@/types/stats';
 
 export const ALLOCATION_CONFIG: AllocationCategory[] = [
   {
-    name: "Emissions & Incentives",
+    name: 'Emissions & Incentives',
     percentage: 40,
-    color: "#F0B90B", // Primary yellow
-    description: "Protocol participation rewards, airdrop, staking, LP incentives",
+    color: '#F0B90B', // Primary yellow
+    description: 'Protocol participation rewards, airdrop, staking, LP incentives',
   },
   {
-    name: "Foundation / Treasury",
+    name: 'Foundation / Treasury',
     percentage: 25,
-    color: "#0ECB81", // Secondary green
-    description: "Protocol development, grants, future initiatives",
+    color: '#0ECB81', // Secondary green
+    description: 'Protocol development, grants, future initiatives',
   },
   {
-    name: "Community / DAO",
+    name: 'Community / DAO',
     percentage: 20,
-    color: "#00a3ff", // Blue
-    description: "Governance, community programs, ecosystem growth",
+    color: '#00a3ff', // Blue
+    description: 'Governance, community programs, ecosystem growth',
   },
   {
-    name: "Team & Advisors",
+    name: 'Team & Advisors',
     percentage: 15,
-    color: "#00c853", // Green
-    description: "Core team allocation with vesting schedule",
+    color: '#00c853', // Green
+    description: 'Core team allocation with vesting schedule',
   },
 ];
 

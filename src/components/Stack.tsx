@@ -1,26 +1,26 @@
-import React from "react";
+import React from 'react';
 
 type StackProps = React.HTMLAttributes<HTMLDivElement> & {
-  direction?: "row" | "column";
+  direction?: 'row' | 'column';
   spacing?: number | string;
-  align?: React.CSSProperties["alignItems"];
-  justify?: React.CSSProperties["justifyContent"];
+  align?: React.CSSProperties['alignItems'];
+  justify?: React.CSSProperties['justifyContent'];
   children: React.ReactNode;
   sx?: React.CSSProperties;
 };
 
 const Stack: React.FC<StackProps> = ({
   children,
-  direction = "row",
+  direction = 'row',
   spacing = 0,
-  align = "stretch",
-  justify = "flex-start",
+  align = 'stretch',
+  justify = 'flex-start',
   sx,
 }) => {
   return (
     <div
       style={{
-        display: "flex",
+        display: 'flex',
         flexDirection: direction,
         alignItems: align,
         justifyContent: justify,

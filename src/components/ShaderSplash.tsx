@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from 'react';
 
 export type FlowProps = {
   projectId?: string;
@@ -18,15 +18,15 @@ export type FlowProps = {
 
 export default function Flow({
   projectId,
-  jsonFilePath = "/assets/shaders/TerminalText.json",
-  width = "100%",
-  height = "",
+  jsonFilePath = '/assets/shaders/TerminalText.json',
+  width = '100%',
+  height = '',
   scale = 1,
   dpi = 1,
   fps = 24,
-  altText = "Shader Effect",
+  altText = 'Shader Effect',
   ariaLabel = altText,
-  className = "flowFrame",
+  className = 'flowFrame',
   lazyLoad = false,
 }: FlowProps) {
   const elementRef = useRef<HTMLDivElement>(null);
@@ -35,32 +35,32 @@ export default function Flow({
   const scriptId = useRef(`us-data-${Math.random().toString(36).slice(2)}`);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (typeof window === 'undefined') return;
 
     const initializeScript = (callback: () => void) => {
-      const version = "1.4.25";
+      const version = '1.4.25';
 
       const existingScript = document.querySelector(
-        'script[src^="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js"]'
+        'script[src^="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js"]',
       );
 
       if (existingScript) {
         if ((window as Window & { UnicornStudio?: unknown }).UnicornStudio) {
           callback();
         } else {
-          existingScript.addEventListener("load", callback);
+          existingScript.addEventListener('load', callback);
         }
         return;
       }
 
-      const script = document.createElement("script");
+      const script = document.createElement('script');
       script.src = `https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v${version}/dist/unicornStudio.umd.js`;
       script.async = true;
 
       script.onload = () => {
         callback();
       };
-      script.onerror = () => setError("Failed to load UnicornStudio script");
+      script.onerror = () => setError('Failed to load UnicornStudio script');
 
       document.body.appendChild(script);
     };
@@ -69,21 +69,18 @@ export default function Flow({
       if (!elementRef.current) return;
 
       if (jsonFilePath) {
-        elementRef.current.setAttribute(
-          "data-us-project-src",
-          `${jsonFilePath}`
-        );
+        elementRef.current.setAttribute('data-us-project-src', `${jsonFilePath}`);
       } else if (projectId) {
-        const [cleanProjectId, query] = projectId.split("?");
-        const production = query?.includes("production");
+        const [cleanProjectId, query] = projectId.split('?');
+        const production = query?.includes('production');
 
-        elementRef.current.setAttribute("data-us-project", cleanProjectId);
+        elementRef.current.setAttribute('data-us-project', cleanProjectId);
 
         if (production) {
-          elementRef.current.setAttribute("data-us-production", "1");
+          elementRef.current.setAttribute('data-us-production', '1');
         }
       } else {
-        throw new Error("No project ID or JSON file path provided");
+        throw new Error('No project ID or JSON file path provided');
       }
 
       interface UnicornStudioType {
@@ -96,12 +93,10 @@ export default function Flow({
         >;
       }
 
-      const UnicornStudio = (
-        window as Window & { UnicornStudio?: UnicornStudioType }
-      ).UnicornStudio;
+      const UnicornStudio = (window as Window & { UnicornStudio?: UnicornStudioType }).UnicornStudio;
 
       if (!UnicornStudio) {
-        throw new Error("UnicornStudio not found");
+        throw new Error('UnicornStudio not found');
       }
 
       if (sceneRef.current?.destroy) {
@@ -113,9 +108,7 @@ export default function Flow({
         dpi,
       }).then((scenes) => {
         const ourScene = scenes.find(
-          (scene) =>
-            scene.element === elementRef.current ||
-            scene.element.contains(elementRef.current)
+          (scene) => scene.element === elementRef.current || scene.element.contains(elementRef.current),
         );
         if (ourScene) {
           sceneRef.current = ourScene;
@@ -143,8 +136,8 @@ export default function Flow({
     <div
       ref={elementRef}
       style={{
-        width: typeof width === "number" ? `${width}px` : width,
-        height: typeof height === "number" ? `${height}px` : height,
+        width: typeof width === 'number' ? `${width}px` : width,
+        height: typeof height === 'number' ? `${height}px` : height,
       }}
       className={`${className}`}
       role="img"
@@ -154,7 +147,7 @@ export default function Flow({
       data-us-fps={fps}
       data-us-alttext={altText}
       data-us-arialabel={ariaLabel}
-      data-us-lazyload={lazyLoad ? "true" : ""}
+      data-us-lazyload={lazyLoad ? 'true' : ''}
     >
       {error && <div className="text-red-500">{error}</div>}
     </div>

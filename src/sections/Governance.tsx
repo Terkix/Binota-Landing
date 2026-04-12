@@ -1,6 +1,6 @@
-import MonButton from "@/components/MonButton";
-import { CardStyles as cardStyles } from "../app/styles";
-import { TypographyClasses as TypeStyles } from "../styles/modules/typography";
+import MonButton from '@/components/MonButton';
+import { CardStyles as cardStyles } from '../app/styles';
+import { TypographyClasses as TypeStyles } from '../styles/modules/typography';
 
 export default function Governance() {
   return (
@@ -15,9 +15,7 @@ export default function Governance() {
           Governance directs 25% to protocol fees and liquidations
           <br /> to LP's
         </h3>
-        <p className={TypeStyles.body}>
-          Aligned Incentives for Sustainable Liquidity
-        </p>
+        <p className={TypeStyles.body}>Aligned Incentives for Sustainable Liquidity</p>
         <div className="mt-12 mb-24">
           <MonButton href="#" text="Read Docs" />
         </div>
@@ -25,18 +23,13 @@ export default function Governance() {
           <div className="col-span-4 lg:col-span-4 xl:col-span-4">
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>GOVERNANCE</h6>
-              <p className={TypeStyles.body}>
-                BNT holders direct emissions to LPs through a gauge system.
-              </p>
+              <p className={TypeStyles.body}>BNT holders direct emissions to LPs through a gauge system.</p>
             </div>
           </div>
           <div className="col-span-4 lg:col-span-4 xl:col-span-4">
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>REDEMPTIONS</h6>
-              <p className={TypeStyles.body}>
-                STABLE for $1 worth of collateral at any time, with unrestricted
-                participation.
-              </p>
+              <p className={TypeStyles.body}>STABLE for $1 worth of collateral at any time, with unrestricted participation.</p>
             </div>
           </div>
 
@@ -44,17 +37,14 @@ export default function Governance() {
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>STABILITY</h6>
               <p className={TypeStyles.body}>
-                Earn protocol fees and liquidation rewards by depositing STABLE
-                into the Stability Pool.
+                Earn protocol fees and liquidation rewards by depositing STABLE into the Stability Pool.
               </p>
             </div>
           </div>
           <div className="col-span-4 lg:col-span-4 xl:col-span-4">
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>IMMUTABLE</h6>
-              <p className={TypeStyles.body}>
-                The protocol is immutable at deployment and cannot be changed.
-              </p>
+              <p className={TypeStyles.body}>The protocol is immutable at deployment and cannot be changed.</p>
             </div>
           </div>
         </div>

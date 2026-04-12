@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import MonButton from "@/components/MonButton";
-import BrandLogo from "../components/BrandLogo";
-import ShaderSplash from "../components/ShaderSplash";
-import { TypographyClasses as TypeStyles } from "../styles/modules/typography";
+import MonButton from '@/components/MonButton';
+import BrandLogo from '../components/BrandLogo';
+import ShaderSplash from '../components/ShaderSplash';
+import { TypographyClasses as TypeStyles } from '../styles/modules/typography';
 
 export default function Splash() {
   return (
@@ -20,8 +20,7 @@ export default function Splash() {
           </h1>
           {/* <h5 className={TypeStyles.h5}>Now live on testnet!</h5> */}
           <p className={TypeStyles.lead}>
-            Binota Stable (STABLE) is backed by a diverse range of collaterals,
-            such as MON, shMON, sMON, and gMON
+            Binota Stable (STABLE) is backed by a diverse range of collaterals, such as MON, shMON, sMON, and gMON
           </p>
           <div className="flex justify-between items-center pt-12">
             <MonButton href="#" text="Launch App" />

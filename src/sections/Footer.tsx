@@ -8,51 +8,30 @@ export default function Footer() {
         <div className="text-sm flex text-white justify-center select-none">
           <div className="container relative max-w-[1440px] px-8 py-24 md:p-24 mx-0 sm:mx-12 lg:mx-24">
             <div className="relative grid grid-cols-4 gap-8 sm:grid-cols-8 xl:grid-cols-12">
-              <nav
-                className="col-span-4 sm:col-span-4 xl:col-span-3"
-                aria-labelledby="footer-get-in-touch-4-sub"
-              >
-                <h3
-                  className="mb-4 text-base font-medium text-secondary-400"
-                  id="footer-get-in-touch-4-sub"
-                >
+              <nav className="col-span-4 sm:col-span-4 xl:col-span-3" aria-labelledby="footer-get-in-touch-4-sub">
+                <h3 className="mb-4 text-base font-medium text-secondary-400" id="footer-get-in-touch-4-sub">
                   Socials
                 </h3>
                 <ul>
                   <li className="mb-2 leading-6 font-sans text-lg">
-                    <a
-                      href="linkname"
-                      className="pointer-events-none cursor-default opacity-50"
-                    >
+                    <a href="linkname" className="pointer-events-none cursor-default opacity-50">
                       Twitter
                     </a>
                   </li>
                   <li className="mb-2 leading-6 font-sans text-lg">
-                    <a
-                      href="linkname"
-                      className="pointer-events-none cursor-default opacity-50"
-                    >
+                    <a href="linkname" className="pointer-events-none cursor-default opacity-50">
                       Discord
                     </a>
                   </li>
                   <li className="mb-2 leading-6 font-sans text-lg">
-                    <a
-                      href="linkname"
-                      className="pointer-events-none cursor-default opacity-50"
-                    >
+                    <a href="linkname" className="pointer-events-none cursor-default opacity-50">
                       Telegram
                     </a>
                   </li>
                 </ul>
               </nav>
-              <nav
-                className="col-span-4 sm:col-span-4 xl:col-span-3"
-                aria-labelledby="footer-about-4-sub"
-              >
-                <h3
-                  className="mb-4 text-base font-medium text-secondary-400"
-                  id="footer-about-4-sub"
-                >
+              <nav className="col-span-4 sm:col-span-4 xl:col-span-3" aria-labelledby="footer-about-4-sub">
+                <h3 className="mb-4 text-base font-medium text-secondary-400" id="footer-about-4-sub">
                   About
                 </h3>
                 <ul>
@@ -65,23 +44,14 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className="mb-2 leading-6 font-sans text-lg">
-                    <a
-                      href="#"
-                      className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600"
-                    >
+                    <a href="#" className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600">
                       Documentation
                     </a>
                   </li>
                 </ul>
               </nav>
-              <nav
-                className="col-span-4 sm:col-span-4 xl:col-span-3"
-                aria-labelledby="footer-product-4-sub"
-              >
-                <h3
-                  className="mb-4 text-base font-medium text-secondary-400"
-                  id="footer-product-4-sub"
-                >
+              <nav className="col-span-4 sm:col-span-4 xl:col-span-3" aria-labelledby="footer-product-4-sub">
+                <h3 className="mb-4 text-base font-medium text-secondary-400" id="footer-product-4-sub">
                   Governance
                 </h3>
                 <ul>
@@ -96,22 +66,13 @@ export default function Footer() {
                 </ul>
               </nav>
 
-              <nav
-                className="col-span-4 md:col-span-4 lg:col-span-3"
-                aria-labelledby="footer-docs-4-sub"
-              >
-                <h3
-                  className="mb-4 text-base font-medium text-secondary-400"
-                  id="footer-docs-4-sub"
-                >
+              <nav className="col-span-4 md:col-span-4 lg:col-span-3" aria-labelledby="footer-docs-4-sub">
+                <h3 className="mb-4 text-base font-medium text-secondary-400" id="footer-docs-4-sub">
                   Developers
                 </h3>
                 <ul>
                   <li className="mb-2 leading-6 font-sans text-lg">
-                    <a
-                      href="#"
-                      className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600"
-                    >
+                    <a href="#" className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600">
                       GitHub
                     </a>
                   </li>
@@ -131,15 +92,12 @@ export default function Footer() {
                 className="col-span-1 flex items-center gap-2 whitespace-nowrap text-base font-medium leading-6 focus:outline-none md:col-span-4 lg:col-span-6"
                 href="linkname"
                 style={{
-                  cursor: "pointer",
+                  cursor: 'pointer',
                 }}
               >
                 Binota
               </a>
-              <nav
-                className="col-span-3 md:col-span-4 lg:col-span-6"
-                aria-labelledby="subfooter-links-3-sub"
-              >
+              <nav className="col-span-3 md:col-span-4 lg:col-span-6" aria-labelledby="subfooter-links-3-sub">
                 <h3 className="sr-only" id="subfooter-links-3-sub">
                   Get in touch
                 </h3>
@@ -149,7 +107,7 @@ export default function Footer() {
                       href="linkname"
                       className="transition-colors duration-300 hover:text-secondary-600 focus:text-secondary-600"
                       style={{
-                        cursor: "pointer",
+                        cursor: 'pointer',
                       }}
                     >
                       T&C
@@ -161,7 +119,7 @@ export default function Footer() {
                       href="linkname"
                       className="transition-colors duration-300 hover:text-secondary-600 focus:text-secondary-600"
                       style={{
-                        cursor: "pointer",
+                        cursor: 'pointer',
                       }}
                     >
                       Privacy

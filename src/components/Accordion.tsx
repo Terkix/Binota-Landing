@@ -1,6 +1,6 @@
-import { Accordion } from "@base-ui-components/react/accordion";
-import type * as React from "react";
-import { AccordionStyles } from "@/app/styles";
+import { Accordion } from '@base-ui-components/react/accordion';
+import type * as React from 'react';
+import { AccordionStyles } from '@/app/styles';
 
 export default function FeaturesAccordion() {
   return (
@@ -14,8 +14,7 @@ export default function FeaturesAccordion() {
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
           <div className={AccordionStyles.panelContent}>
-            UNO is backed by more collateral than it issues, eliminating the
-            risk of undercollateralization
+            UNO is backed by more collateral than it issues, eliminating the risk of undercollateralization
           </div>
         </Accordion.Panel>
       </Accordion.Item>
@@ -29,8 +28,7 @@ export default function FeaturesAccordion() {
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
           <div className={AccordionStyles.panelContent}>
-            Utilize multiple yield-bearing collateral assets, including MON,
-            shMON, sMON, and gMON
+            Utilize multiple yield-bearing collateral assets, including MON, shMON, sMON, and gMON
           </div>
         </Accordion.Panel>
       </Accordion.Item>
@@ -44,8 +42,7 @@ export default function FeaturesAccordion() {
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
           <div className={AccordionStyles.panelContent}>
-            Borrowers set interest rates, enabling flexible capital strategies
-            and custom risk profiles.
+            Borrowers set interest rates, enabling flexible capital strategies and custom risk profiles.
           </div>
         </Accordion.Panel>
       </Accordion.Item>
@@ -59,8 +56,7 @@ export default function FeaturesAccordion() {
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
           <div className={AccordionStyles.panelContent}>
-            Open and manage separate troves across assets, giving you full
-            control over each position.
+            Open and manage separate troves across assets, giving you full control over each position.
           </div>
         </Accordion.Panel>
       </Accordion.Item>
@@ -68,7 +64,7 @@ export default function FeaturesAccordion() {
   );
 }
 
-function PlusIcon(props: React.ComponentProps<"svg">) {
+function PlusIcon(props: React.ComponentProps<'svg'>) {
   return (
     <svg viewBox="0 0 12 12" fill="currentcolor" {...props}>
       <title>Plus Icon</title>

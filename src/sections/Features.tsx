@@ -1,5 +1,5 @@
-import Accordion from "../components/Accordion";
-import { TypographyClasses as TypeStyles } from "../styles/modules/typography";
+import Accordion from '../components/Accordion';
+import { TypographyClasses as TypeStyles } from '../styles/modules/typography';
 
 export default function Features() {
   return (
