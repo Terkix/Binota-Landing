@@ -1,6 +1,6 @@
 # Architectural Patterns
 
-This document describes the recurring architectural patterns, design decisions, and conventions used across the Moneta Landing codebase.
+This document describes the recurring architectural patterns, design decisions, and conventions used across the Binota Landing codebase.
 
 ## Component Architecture
 
