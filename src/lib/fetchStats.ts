@@ -12,11 +12,11 @@ import {
 import { PROTOCOL_STATS_QUERY } from '@/lib/queries';
 import { type StatsData, type SubgraphResponse, PLACEHOLDER_STATS } from '@/types/stats';
 
-// Monad chain definition
-const monad = {
-  id: 143,
-  name: 'Monad',
-  nativeCurrency: { name: 'MON', symbol: 'MON', decimals: 18 },
+// BSC chain definition
+const bsc = {
+  id: 56,
+  name: 'BNB Smart Chain',
+  nativeCurrency: { name: 'BNB', symbol: 'BNB', decimals: 18 },
   rpcUrls: {
     default: { http: [RPC_URL] },
   },
@@ -24,7 +24,7 @@ const monad = {
 
 // Create viem client for RPC calls
 const client = createPublicClient({
-  chain: monad,
+  chain: bsc,
   transport: http(RPC_URL),
 });
 
