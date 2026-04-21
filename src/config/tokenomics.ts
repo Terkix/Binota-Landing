@@ -13,7 +13,7 @@ export const ALLOCATION_CONFIG: AllocationCategory[] = [
   {
     name: 'Foundation / Treasury',
     percentage: 25,
-    color: '#0ECB81', // Secondary green
+    color: '#F0B90B', // Secondary yellow (matching primary)
     description: 'Protocol development, grants, future initiatives',
   },
   {
