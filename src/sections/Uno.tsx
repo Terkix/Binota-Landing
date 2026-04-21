@@ -11,13 +11,13 @@ export default function Uno() {
           <div className="items-stretch grid grid-cols-12 gap-0">
             <div className="col-span-6 md:col-span-3">
               <div className={`${cardStyles.cardGrid} flex justify-center items-center`}>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl tracking-narrowest mb-0 leading-0">STABLE</h1>
+                <h1 className="text-3xl md:text-4xl lg:text-5xl tracking-narrowest mb-0 leading-0">B1</h1>
               </div>
             </div>
             <div className="hidden md:block md:col-span-6">
               <div className={`${cardStyles.cardGrid} flex justify-center items-center text-center p-4`}>
                 <p className={TypeStyles.body}>
-                  STABLE for $1 worth of collateral at any time, with <br /> unrestricted participation.
+                  B1 for $1 worth of collateral at any time, with <br /> unrestricted participation.
                 </p>
               </div>
             </div>
