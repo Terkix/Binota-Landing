@@ -14,7 +14,7 @@ export default function FeaturesAccordion() {
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
           <div className={AccordionStyles.panelContent}>
-            STABLE is backed by more collateral than it issues, eliminating the risk of undercollateralization
+            B1 is backed by more collateral than it issues, eliminating the risk of undercollateralization
           </div>
         </Accordion.Panel>
       </Accordion.Item>
