@@ -44,9 +44,7 @@ export default function Products() {
                 />
               </div>
               <h4 className={TypeStyles.h4}>COLLATERALS</h4>
-              <p className={TypeStyles.lead + ' text-left'}>
-                B1 is backed by BNB collateral on Binance Smart Chain
-              </p>
+              <p className={TypeStyles.lead + ' text-left'}>B1 is backed by BNB collateral on Binance Smart Chain</p>
               <div style={{ marginTop: '24px' }}>
                 <MonButton href="#" text="Borrow B1" />
               </div>

@@ -27,9 +27,7 @@ export default function FeaturesAccordion() {
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
-          <div className={AccordionStyles.panelContent}>
-            Utilize BNB as yield-bearing collateral
-          </div>
+          <div className={AccordionStyles.panelContent}>Utilize BNB as yield-bearing collateral</div>
         </Accordion.Panel>
       </Accordion.Item>
 

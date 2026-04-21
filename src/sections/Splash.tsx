@@ -19,9 +19,7 @@ export default function Splash() {
             <br />
           </h1>
           {/* <h5 className={TypeStyles.h5}>Now live on testnet!</h5> */}
-          <p className={TypeStyles.lead}>
-            Binota B1 is backed by BNB collateral
-          </p>
+          <p className={TypeStyles.lead}>Binota B1 is backed by BNB collateral</p>
           <div className="flex justify-between items-center pt-12">
             <MonButton href="#" text="Launch App" />
           </div>
