@@ -18,8 +18,8 @@ export default function Products() {
                 <Image
                   width={96}
                   height={96}
-                  src="/assets/img/Hand.svg"
-                  alt="Binota Hand"
+                  src="/assets/img/logo.svg"
+                  alt="Binota Logo"
                   className="w-24 h-24"
                   style={{ marginLeft: '-24px' }}
                 />
@@ -37,8 +37,8 @@ export default function Products() {
                 <Image
                   width={96}
                   height={96}
-                  src="/assets/img/Pinky.svg"
-                  alt="Binota Pinky"
+                  src="/b1.svg"
+                  alt="Binota B1"
                   className="w-24 h-24"
                   style={{ marginLeft: '-24px' }}
                 />
