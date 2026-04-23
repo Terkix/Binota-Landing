@@ -4,11 +4,11 @@ import { RPC_URL, BINOTA_TOKEN_ADDRESS, STATS_REVALIDATE_INTERVAL } from '@/conf
 import { ALLOCATION_CONFIG, TOTAL_SUPPLY_OVERRIDE } from '@/config/tokenomics';
 import type { TokenomicsData } from '@/types/stats';
 
-// Monad chain definition
-const monad = {
-  id: 143,
-  name: 'Monad',
-  nativeCurrency: { name: 'MON', symbol: 'MON', decimals: 18 },
+// BSC chain definition
+const bsc = {
+  id: 56,
+  name: 'BNB Smart Chain',
+  nativeCurrency: { name: 'BNB', symbol: 'BNB', decimals: 18 },
   rpcUrls: {
     default: { http: [RPC_URL] },
   },
@@ -16,7 +16,7 @@ const monad = {
 
 // Create viem client for RPC calls
 const client = createPublicClient({
-  chain: monad,
+  chain: bsc,
   transport: http(RPC_URL),
 });
 

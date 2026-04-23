@@ -14,7 +14,7 @@ export default function FeaturesAccordion() {
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
           <div className={AccordionStyles.panelContent}>
-            UNO is backed by more collateral than it issues, eliminating the risk of undercollateralization
+            B1 is backed by more collateral than it issues, eliminating the risk of undercollateralization
           </div>
         </Accordion.Panel>
       </Accordion.Item>
@@ -27,9 +27,7 @@ export default function FeaturesAccordion() {
           </Accordion.Trigger>
         </Accordion.Header>
         <Accordion.Panel className={AccordionStyles.panel}>
-          <div className={AccordionStyles.panelContent}>
-            Utilize multiple yield-bearing collateral assets, including MON, shMON, sMON, and gMON
-          </div>
+          <div className={AccordionStyles.panelContent}>Utilize BNB as yield-bearing collateral</div>
         </Accordion.Panel>
       </Accordion.Item>
 

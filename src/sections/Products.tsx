@@ -18,14 +18,14 @@ export default function Products() {
                 <Image
                   width={96}
                   height={96}
-                  src="/assets/img/Hand.svg"
-                  alt="Binota Hand"
+                  src="/assets/img/logo.svg"
+                  alt="Binota Logo"
                   className="w-24 h-24"
                   style={{ marginLeft: '-24px' }}
                 />
               </div>
               <h4 className={TypeStyles.h4}>EARN</h4>
-              <p className={TypeStyles.lead}>Depositing STABLE into the Stability Pool earns fees from borrowers</p>
+              <p className={TypeStyles.lead}>Depositing B1 into the Stability Pool earns fees from borrowers</p>
               <div style={{ marginTop: '24px' }}>
                 <MonButton href="#" text="Earn BNT" />
               </div>
@@ -37,18 +37,16 @@ export default function Products() {
                 <Image
                   width={96}
                   height={96}
-                  src="/assets/img/Pinky.svg"
-                  alt="Binota Pinky"
+                  src="/b1.svg"
+                  alt="Binota B1"
                   className="w-24 h-24"
                   style={{ marginLeft: '-24px' }}
                 />
               </div>
               <h4 className={TypeStyles.h4}>COLLATERALS</h4>
-              <p className={TypeStyles.lead + ' text-left'}>
-                STABLE is backed by Monad-native assets including MON, shMON, sMON, and gMON
-              </p>
+              <p className={TypeStyles.lead + ' text-left'}>B1 is backed by BNB collateral on Binance Smart Chain</p>
               <div style={{ marginTop: '24px' }}>
-                <MonButton href="#" text="Borrow STABLE" />
+                <MonButton href="#" text="Borrow B1" />
               </div>
             </div>
             <ShaderBorrow className="min-h-[500px] max-h-[500px] w-full flex-col lg:pb-0 lg:w-[50%] lg:row-span-6 lg:flex-row" />

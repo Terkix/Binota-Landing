@@ -29,7 +29,7 @@ export default function Governance() {
           <div className="col-span-4 lg:col-span-4 xl:col-span-4">
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>REDEMPTIONS</h6>
-              <p className={TypeStyles.body}>STABLE for $1 worth of collateral at any time, with unrestricted participation.</p>
+              <p className={TypeStyles.body}>B1 for $1 worth of collateral at any time, with unrestricted participation.</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ export default function Governance() {
             <div className={`${cardStyles.cardGrid} p-12`}>
               <h6 className={TypeStyles.h6}>STABILITY</h6>
               <p className={TypeStyles.body}>
-                Earn protocol fees and liquidation rewards by depositing STABLE into the Stability Pool.
+                Earn protocol fees and liquidation rewards by depositing B1 into the Stability Pool.
               </p>
             </div>
           </div>

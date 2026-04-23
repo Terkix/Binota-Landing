@@ -13,15 +13,13 @@ export default function Splash() {
         <div className="relative flex flex-col align-middle justify-center text-white z-[1]">
           <BrandLogo />
           <h1 className={TypeStyles.h2}>
-            The <i>only</i> MONAD
+            The <i>only</i> BNB
             <br />
             Stablecoin Experience
             <br />
           </h1>
           {/* <h5 className={TypeStyles.h5}>Now live on testnet!</h5> */}
-          <p className={TypeStyles.lead}>
-            Binota Stable (STABLE) is backed by a diverse range of collaterals, such as MON, shMON, sMON, and gMON
-          </p>
+          <p className={TypeStyles.lead}>Binota B1 is backed by BNB collateral</p>
           <div className="flex justify-between items-center pt-12">
             <MonButton href="#" text="Launch App" />
           </div>
