@@ -16,7 +16,7 @@ export default function Distribution() {
             Stake BNT to earn protocol revenue from Binota and gain governance power over liquidity incentives.
           </p>
           <div style={{ marginTop: '24px' }}>
-            <MonButton href="#" text="Launch App" />
+            <MonButton href="https://app.binota.xyz" text="Launch App" />
           </div>
         </div>
       </div>
