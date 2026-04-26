@@ -21,7 +21,7 @@ export default function Splash() {
           {/* <h5 className={TypeStyles.h5}>Now live on testnet!</h5> */}
           <p className={TypeStyles.lead}>Binota B1 is backed by BNB collateral</p>
           <div className="flex justify-between items-center pt-12">
-            <MonButton href="#" text="Launch App" />
+            <MonButton href="https://app.binota.xyz" text="Launch App" />
           </div>
         </div>
         {/* <ShaderSplash className="absolute top-0 left-0 min-h-[900px]" /> */}
