@@ -44,7 +44,7 @@ export default function Footer() {
                     </a>
                   </li>
                   <li className="mb-2 leading-6 font-sans text-lg">
-                    <a href="#" className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600">
+                    <a href="https://github.com/BinotaLQTY/Binota-FE-Org/blob/main/DOCS.md" className="transition-colors duration-300 hover:text-secondary-400 focus:text-secondary-600">
                       Documentation
                     </a>
                   </li>
