@@ -17,7 +17,7 @@ export default function Governance() {
         </h3>
         <p className={TypeStyles.body}>Aligned Incentives for Sustainable Liquidity</p>
         <div className="mt-12 mb-24">
-          <MonButton href="#" text="Read Docs" />
+          <MonButton href="https://github.com/BinotaLQTY/Binota-FE-Org/blob/main/DOCS.md" text="Read Docs" />
         </div>
         <div className="items-stretch grid grid-cols-4 xl:grid-cols-8">
           <div className="col-span-4 lg:col-span-4 xl:col-span-4">
